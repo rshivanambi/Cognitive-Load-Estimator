@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+# LearnFlow AI
 
-## Project info
+An interactive AI-assisted learning platform developed to enhance digital education through structured learning, course management, and role-based access for students and teachers.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+LearnFlow AI is a web-based educational platform that provides an organized learning environment where students can access courses and lessons while teachers manage educational content.
 
-**Use Lovable**
+The project focuses on creating an engaging and scalable learning experience through a modern frontend architecture.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+### Student Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Secure authentication
+* Student dashboard
+* Browse available courses
+* Access lessons and course content
+* Take course assessments/tests
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Teacher Features
 
-Follow these steps:
+* Teacher dashboard
+* Manage educational content
+* Monitor learning workflow
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### General Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Responsive user interface
+* Role-based access control
+* Fast navigation using React Router
+* Modern component-based architecture
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+
+### UI & Styling
+
+* Tailwind CSS
+* shadcn/ui
+* Framer Motion
+
+### State & Data Handling
+
+* React Query
+
+### Additional Libraries
+
+* React Router
+* React Hook Form
+* TensorFlow.js (where applicable)
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── lib/
+├── hooks/
+├── styles/
+└── main.tsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/learnflow-ai.git
+```
+
+Move into the project folder:
+
+```bash
+cd learnflow-ai
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```text
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Build for Production
 
-## What technologies are used for this project?
+```bash
+npm run build
+```
 
-This project is built with:
+Preview production build:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run preview
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Future Enhancements
 
-## Can I connect a custom domain to my Lovable project?
+* AI-powered personalized learning
+* Analytics dashboard
+* Progress tracking
+* Improved recommendation system
+* Deployment and cloud integration
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
