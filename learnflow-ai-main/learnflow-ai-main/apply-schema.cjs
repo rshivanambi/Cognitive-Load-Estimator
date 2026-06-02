@@ -5,7 +5,7 @@ async function run() {
     const connection = await mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'vignesh2005'
+        password: 'YOUR-PASSWORD'
     });
 
     console.log('Connected to MySQL.');
@@ -17,7 +17,7 @@ async function run() {
     const setupConnection = await mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'vignesh2005',
+        password: 'YOUR-PASSWORD',
         multipleStatements: true
     });
 
