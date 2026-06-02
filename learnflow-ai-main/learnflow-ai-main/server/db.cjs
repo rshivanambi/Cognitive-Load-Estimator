@@ -4,7 +4,7 @@ const path = require('path');
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'vignesh2005', // Update if needed
+    password: 'YOUR-PASSWORD', // Update if needed
     database: 'learnflow_ai',
     multipleStatements: true
 });
